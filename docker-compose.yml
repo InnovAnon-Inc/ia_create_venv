@@ -5,9 +5,9 @@ services:
       context:        .
       tags:
         - innovanon/ia_create_venv:latest
-        -           ia_create_venv:latest
-        - innovanon/ia_create_venv
-        -           ia_create_venv
+    #    -           ia_create_venv:latest
+    #    - innovanon/ia_create_venv
+    #    -           ia_create_venv
     image:            innovanon/ia_create_venv
     restart:          no
     logging:
