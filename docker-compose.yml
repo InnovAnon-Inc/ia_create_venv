@@ -4,7 +4,7 @@ services:
     build:
       context:        .
       tags:
-        - ia_create_venv:latest
+        - innovanon/ia_create_venv:latest
     restart:          no
     logging:
       driver:         syslog   
